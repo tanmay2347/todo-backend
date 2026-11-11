@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Backend API URL
-const API_URL = 'http://localhost:5000/api/todos';
+const API_URL = 'https://apka-live-backend-url.onrender.com/api/todos';
 
 // Get all todos (with optional search query)
 export const getTodos = async (search = '') => {
